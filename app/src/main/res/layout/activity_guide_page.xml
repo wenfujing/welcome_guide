@@ -19,6 +19,20 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginBottom="30dp"
-        android:text="进入app"
+        android:text="欢迎使用app"
         android:visibility="gone" />
+    <!-- 倒计时文本 -->
+    <TextView
+        android:id="@+id/id_countdownTextView"
+        android:layout_width="@dimen/countdown_width"
+        android:layout_height="@dimen/countdown_width"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/countdown_margin"
+        android:layout_marginRight="@dimen/countdown_margin"
+        android:text=""
+        android:textSize="@dimen/countdown_text_size"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:background="@drawable/countdown_text_circle_bg_drawable"/>
 </RelativeLayout>
